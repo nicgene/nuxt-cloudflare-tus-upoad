@@ -1,0 +1,10 @@
+.cache
+.env
+.env.*
+.nitro
+.nuxt
+.output
+*.log*
+node_modules
+# nuxt.d.ts
+wrangler.toml

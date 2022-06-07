@@ -1,0 +1,19 @@
+account_id = ""
+compatibility_date = "2022-06-07"
+name = "nuxt-cloudflare-tus-upload"
+route = ""
+type = "javascript"
+workers_dev = true
+# zone_id = ""
+
+[site]
+bucket = ".output/public"
+entry-point = ".output" # wrangler2 changed to build.upload.main
+
+[build]
+# command = "NITRO_PRESET=cloudflare yarn nuxt build"
+command = "NITRO_PRESET=cloudflare yarn build"
+
+[build.upload]
+format = "service-worker"
+# main = ".output/server/index.mjs"

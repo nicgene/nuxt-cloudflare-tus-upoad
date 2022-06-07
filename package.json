@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-cloudflare-tus-upload",
+  "version": "1.0.0-alpha",
+  "author": "@nicgene",
+  "license": "MIT",
+  "homepage": "https://gitlab.com/nicgene/nuxt-cloudflare-tus-upload#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/nicgene/nuxt-cloudflare-tus-upload.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/nicgene/nuxt-cloudflare-tus-upload/issues"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.3",
+    "tus-js-client": "^2.3.2"
+  },
+  "dependencies": {}
+}
